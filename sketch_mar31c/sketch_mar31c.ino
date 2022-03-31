@@ -2,6 +2,9 @@ int trig=13;
 int echo=12;
 int tiempo;
 int distancia;
+int azul=7;
+int blanco=6;
+int verde=5;
 
 void setup() {
   pinMode(trig,OUTPUT);
@@ -20,6 +23,7 @@ void loop() {
 
   if (distancia<20)
   {
+
   }
   if ((distancia>=20) && (distancia<50))
   {
