@@ -22,7 +22,7 @@ void loop() {
   tiempo=pulseIn(echo,HIGH);
   distancia=tiempo/58.2;
   delay(500);
-
+  Serial.println(distancia);
 
   if (distancia<20)
   {
