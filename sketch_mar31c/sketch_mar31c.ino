@@ -7,6 +7,7 @@ int blanco=6;
 int verde=5;
 
 void setup() {
+  Serial.begin(9600);
   pinMode(trig,OUTPUT);
   pinMode(echo,INPUT);
   pinMode(azul,OUTPUT);
