@@ -25,13 +25,22 @@ void loop() {
 
   if (distancia<20)
   {
-
+    digitalWrite(azul,HIGH);
+    digitalWrite(blanco, LOW);
+    digitalWrite(verde,LOW);
+    
   }
   if ((distancia>=20) && (distancia<50))
   {
+    digitalWrite(azul,LOW);
+    digitalWrite(blanco,HIGH);
+    digitalWrite(verde,LOW);
   }
   if(distancia>=50)
   {
+    digitalWrite(azul,LOW);
+    digitalWrite(blanco,LOW);
+    digitalWrite(verde,HIGH);
   }
 
 }
