@@ -17,4 +17,15 @@ void loop() {
   distancia=tiempo/58.2;
   delay(500);
 
+
+  if (distancia<20)
+  {
+  }
+  if ((distancia>=20) && (distancia<50))
+  {
+  }
+  if(distancia>=50)
+  {
+  }
+
 }
