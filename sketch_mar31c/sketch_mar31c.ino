@@ -9,7 +9,9 @@ int verde=5;
 void setup() {
   pinMode(trig,OUTPUT);
   pinMode(echo,INPUT);
-
+  pinMode(azul,OUTPUT);
+  pinMode(blanco,OUTPUT);
+  pinMode(verde,OUTPUT);
 }
 
 void loop() {
