@@ -23,6 +23,7 @@ void loop() {
   distancia=tiempo/58.2;
   delay(500);
   Serial.println(distancia);
+  delay(1);
 
   if (distancia<20)
   {
