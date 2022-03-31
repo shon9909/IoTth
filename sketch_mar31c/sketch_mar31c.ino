@@ -4,11 +4,17 @@ int tiempo;
 int distancia;
 
 void setup() {
-  // put your setup code here, to run once:
+  pinMode(trig,OUTPUT);
+  pinMode(echo,INPUT);
 
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  digitalWrite(trig,HIGH);
+  delay(1);
+  digitalWrite(trig,LOW);
+  tiempo=pulseIn(echo,HIGH);
+  distancia=tiempo/58.2;
+  delay(500);
 
 }
